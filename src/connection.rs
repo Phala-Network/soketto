@@ -24,7 +24,7 @@ use futures::{
 use std::{fmt, io, str};
 
 /// Accumulated max. size of a complete message.
-const MAX_MESSAGE_SIZE: usize = 256 * 1024 * 1024;
+const MAX_MESSAGE_SIZE: usize = 512 * 1024 * 1024;
 
 /// Max. size of a single message frame.
 const MAX_FRAME_SIZE: usize = MAX_MESSAGE_SIZE;
