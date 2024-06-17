@@ -330,7 +330,7 @@ pub struct Codec {
 
 impl Default for Codec {
 	fn default() -> Self {
-		Codec { max_data_size: 256 * 1024 * 1024, reserved_bits: 0, header_buffer: [0; MAX_HEADER_SIZE] }
+		Codec { max_data_size: 512 * 1024 * 1024, reserved_bits: 0, header_buffer: [0; MAX_HEADER_SIZE] }
 	}
 }
 
